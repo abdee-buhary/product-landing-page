@@ -1,0 +1,107 @@
+#header{
+    position:fixed;
+    display:flex;
+    justify-content: space-around;
+    top:0px;
+    padding: 5px 20px;
+  }
+  
+  #header-img{
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    padding: 5px;
+    width: 150px
+  }
+  
+  #nav-bar{
+    position:fixed;
+    top: 5px;
+    right: 0px;
+    padding: 5px 10px;
+    float: left;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #coffee{
+    position:fixed;
+    right:50%;
+    margin: auto;
+    padding:auto;
+  }
+  
+  #container-p{
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    padding:auto;
+  }
+  
+  #container-f{
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    padding:auto;
+  }
+  
+  
+  #point{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #features{
+    font-family:;
+  }
+  
+  .icon{
+    max-width: 60px;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 15px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .desc{
+    margin-left: 5px;
+    margin-top: 15px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  #container-product{
+    padding:auto;
+    text-align:center;
+    margin-top: 25px;
+  }
+  
+  #video{
+    margin:15px;
+    padding:auto;
+    background-color:blue;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
